@@ -15,12 +15,8 @@ export default function achievementHandler(req: NextApiRequest, res: NextApiResp
       // const {query: descriptions} = req
       // res.status(200).json({descriptions: `${JSON.stringify(descriptions)}`})
       break
-    case 'PUT':
-      // Update or create data in your database
-      res.status(200).json({ id, name: name || `Achievement ${id}` })
-      break
     default:
-      res.setHeader('Allow', ['GET', 'PUT'])
+      res.setHeader('Allow', ['GET'])
       res.status(405).end(`Method ${method} Not Allowed`)
   }
   
