@@ -29,12 +29,8 @@ export default function Index({
     <ul>
     <h1 >welcome to richard's professional RESUME website!</h1>
       <p></p>
-      <p> yes... I made a custom font. </p>
-      <p> This site will contain a rest api with my...</p>
-      <br></br>
-      <br></br>
-      <br></br>
-      
+      <p> (yes... this font was drawn with my mouse) </p>
+      <p> This site will contain an interface that holds my...</p>
       <p>PROFESSIONAL ACHIEVEMENTS:</p>
     
       
