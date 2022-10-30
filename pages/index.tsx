@@ -1,4 +1,4 @@
-import type { User } from '../interfaces'
+import type { Achievement } from '../interfaces'
 import useSwr from 'swr'
 import Link from 'next/link'
 import * as React from 'react';
