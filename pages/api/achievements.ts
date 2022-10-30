@@ -2,7 +2,7 @@ import type { NextApiRequest, NextApiResponse } from 'next'
 import type { Achievement } from '../../interfaces'
 
 // Fake users data
-const achievements: Achievements[] = 
+const achievements: Achievement[] = 
 [
   { id: 1, 
       desc: {yes: "yes"}, 
